@@ -55,6 +55,19 @@
       white-space: nowrap;
       overflow: hidden;
   }
+  .VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+    visibility: hidden;
+    content-visibility: hidden;
+}
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+    display: none !important;
+    content-visibility: hidden;
+}
+.goog-te-gadget{
+    color:transparent !important;
+} 
+
   @keyframes typing {
       from {
           width: 0;

@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+      background-color: #0e428f;
+      background: url(bac1.gif);
+      color: #f9f9f9;
+      padding: 30px;
+  }
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: -20px;
+  }
+  .logo img {
+      width: 100px;
+  }
+  .nav-links li {
+      display: inline-block;
+      margin-right: 70px;
+      padding: 10px;
+  }
+  .nav-links li a:hover {
+      background-color: #53627578;
+      border-radius: 10px;
+      font-size: 18px;
+      color :#f49884;
+  }
+  .nav-links {
+      display: inline-block;
+      margin-top: 34px;
+  }
+  .nav-links li a {
+      text-decoration: none;
+      color: #feffff;
+      transition: color 0.3s ease;
+  }
+  .hero {
+      background-color: #daecf9;
+      color: #040404;
+      padding: 50px;
+      font-size:xx-large;
+      text-align: center;
+      height: 50vh;
+      width: auto;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .typewrite > .wrap {
+      border-right: 0.08em solid #fff;
+      animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+      white-space: nowrap;
+      overflow: hidden;
+  }
+  @keyframes typing {
+      from {
+          width: 0;
+      }
+      to {
+          width: 100%;
+      }
+  }
+  @keyframes blink-caret {
+      from, to {
+          border-color: transparent;
+      }
+      50% {
+          border-color: #fff;
+      }
+  }
+  .hero h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+  }
+  /* Styling for the User Testimonials section */
+  .user-testimonials {
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      padding: 50px;
+      float: left;
+      width: 50%;
+      height: 60vh;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .user-testimonials h2 {
+      font-size: 40px;
+      margin-bottom: 10px;
+  }
+  .user-testimonials ul {
+      list-style: none;
+      padding: 0;
+  }
+  .user-testimonials li {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+  }
+  /* Styling for the user testimonial content */
+  .user-testimonial-text {
+      font-style: italic;
+  }
+  .user-testimonial-author {
+      font-weight: bold;
+      color: #007bff;
+  }
+  /* Styling for the Feedback Form section */
+  .feedback-form {
+      background-color: #f9f9f9;
+      padding: 80px;
+  }
+  .form-group input{
+      display: block;
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      padding: 10px;
+      float: left;
+      width: 20%;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .feedback-form h2 {
+      text-align: center;
+      font-size: 40px;
+      padding: 10px;
+  }
+  .feedback-form p{
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+  }
+  .form-group {
+      margin-bottom: 20px;
+  }
+  .form-group label {
+      display: block;
+      font-size: 1.1em;
+      margin-bottom: 5px;
+  }
+  textarea {
+      width: 100%;
+      height: 25vh;
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+  }
+  button {
+      background-color: #262a2b;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2em;
+  }
+  button:hover {
+      background-color: #0056b3;
+  }
+  /* Styling for the Social Media section */
+  .social-media,.content-updates {
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      padding: 50px;
+      float: left;
+      width: 50%;
+      height: 30vh;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+  }
+  .social-media h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 30px;
+  }
+  .social-icons {
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      align-items: center;
+      gap: 40px;
+  }
+  .social-icons a:hover {
+      color: #007bff;
+      font-size:45px;
+  }
+  .social-icons a:active {
+      color: #ff3300;
+      font-size:45px;
+  }
+  /* Styling for the Content Updates section */
+  .content-updates h2 {
+      font-size: 30px;
+      margin-bottom: 30px;
+  }
+  .content-updates p {
+      font-size: 20px;
+      margin-bottom: 10px;
+  }
+  
+  #last-updated-date {
+      color: #002aff;
+  }
+  /* Styling for the Translation Guides section */
+  .translation-guides,.faq{
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      padding: 40px;
+      float: left;
+      width: 50%;
+      height: 60vh;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .translation-guides h2 {
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 40px;
+  }
+  .translation-guides ul {
+      list-style: none;
+      padding: 0px;
+  }
+  .translation-guides li {
+      font-size: 18px;
+      margin-bottom: 20px;
+  }
+  .translation-guides li a:hover {
+      color:#ff0026;
+      font-size: 19px;
+  }
+  .translation-guide-link {
+      color: #007bff;
+      text-decoration: none;
+  }
+  /* Styling for the FAQ section */
+  .faq h2 {
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 40px;
+  }
+  .faq dl {
+      margin: 10px;
+      padding: 0;
+      font-size: 18px;
+  }
+  .faq dt.faq-question {
+      font-weight: bold;
+      color: #010101;
+      cursor: pointer;
+  }
+  .faq dd.faq-answer {
+      display: none;
+      font-size: 1.1em;
+      margin-left: 0;
+      margin-top: 5px;
+  }
+  /* Styling for the Contact Information section */
+  .contact-info,.chat-support{
+      box-sizing: border-box;
+      background-color: #f9f9f9;
+      padding: 40px;
+      float: left;
+      width: 50%;
+      height: 40vh;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .contact-info h2 {
+      font-size: 35px;
+      margin-bottom: 40px;
+  }
+  .contact-info p {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  .contact-info span:hover {
+      color: #d549ed;
+  }
+  .chat-support h2 {
+      text-align: center;
+      font-size: 35px;
+      margin-bottom: 40px;
+  }
+  .chat-support p {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  footer {
+      background-color: #333;
+      color: #fff;
+      padding: 30px;
+      text-align: center;
+      font-size: 20px;
+  }
+  .footer-links li {
+      display: inline-block;
+      padding: 10px;
+      margin-left: 20px;
+  }
+  .footer-links li a {
+      text-decoration: none;
+      color: #fff;
+  }

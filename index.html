@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="Tool.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <h1>Language Translator</h1>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <section class="hero">
+        <!-- <div class="wrapp">
+            <div class="static-txt"></div>
+            <ul class="dynamic-txts">
+                <li><span>Welcome to our Language Translator.</span></li>
+                <li><span>हमारे भाषा अनुवादक में आपका स्वागत है।</span></li>
+            </ul>
+        </div> -->
+        <h1><a href="" class="typewrite" data-period="2000" data-type='["Welcome to our Language Translator","हमारे भाषा अनुवादक में आपका स्वागत है।"]'>
+        <span class="wrap"></span></a></h1> 
+        <p>Translate English to Hindi and more!</p>
+        <p>Translate this page:</p>
+        <div id="google_translate_element"></div>
+    </section>
+    <section class="user-testimonials">
+        <h2>User Testimonials</h2>
+        <ul id="user-testimonials-list">
+            <li>English to Hindi: "Hello, World!" translated to "नमस्ते, दुनिया!"</li>
+            <li>English to Spanish: "Good morning" translated to "Buenos días"</li>
+            <li>English to French: "Thank you" translated to "Merci"</li>
+            <li>English to German: "Welcome" translated to "Willkommen"</li>
+            <li>English to Chinese: "Goodbye" translated to "再见"</li>
+        </ul>
+    </section>
+    <section class="user-testimonials">
+        <h2>User Testimonials</h2>
+        <ul>
+            <li>"This translation tool is amazing! It's made my life so much easier." - John Doe</li>
+            <li>"I use this website daily for my work. It's accurate and reliable." - Jane Smith</li>
+            <li>"The user-friendly interface makes translation a breeze. Highly recommended!" - David Johnson</li>
+            <li>"I'm impressed by the quality of translations. Great job!" - Maria Garcia</li>
+            <li>"The support team is very responsive and helpful. Top-notch service!" - James Brown</li>
+        </ul>
+    </section>
+    <section class="feedback-form">
+        <h2>Feedback Form</h2>
+        <p>Have a question or want to work with us? Drop us a message!</p>
+        <form id="user-feedback-form">
+            <div class="form-group">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="date" placeholder="Date Of Birth">
+                <input type="number" placeholder="Mobile Number">
+                <input type="email" placeholder="Email">
+                <label for="feedback"></label>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" required placeholder="Please Write Your Feedback:"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <section class="social-media">
+        <h2>Share on Social Media</h2>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/YourPage" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="https://twitter.com/YourPage" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/company/your-company" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/your-instagram" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.pinterest.com/your-pinterest" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+    </section>
+    <section class="content-updates">
+        <h2>Content Updates</h2>
+        <p>Last Updated: <span id="last-updated-date">September 15, 2023</span></p>
+    </section>
+    <section class="translation-guides">
+        <h2>Translation Guides</h2>
+        <ul id="translation-guides-list">
+            <li><a href="translation-guide1.pdf" target="_blank">Guide to Effective Translation (PDF)</a></li>
+            <li><a href="translation-tips.html" target="_blank">10 Tips for Accurate Translation</a></li>
+            <li><a href="video-tutorial.html" target="_blank">Video Tutorial: Translating Complex Phrases</a></li>
+            <li><a href="idiomatic-expressions.pdf" target="_blank">Mastering Idiomatic Expressions (PDF)</a></li>
+            <li><a href="grammar-rules.html" target="_blank">Grammar Rules for Quality Translation</a></li>
+            <li><a href="language-resources.html" target="_blank">Useful Language Resources for Translators</a></li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2>FAQ Section</h2>
+        <dl>
+            <dt class="faq-question">Q: How can I use the translation tool?</dt>
+            <dd class="faq-answer">A: To use the translation tool, enter your text in the input field and click the "Translate" button. Select the source and target languages, and the tool will provide the translation result.</dd>
+            <dt class="faq-question">Q: Is the translation tool accurate?</dt>
+            <dd class="faq-answer">A: Yes, we strive for accuracy. Our tool utilizes advanced algorithms and language models to provide accurate translations. However, keep in mind that translations may vary in complexity and context.</dd>
+            <dt class="faq-question">Q: Can I suggest improvements for translations?</dt>
+            <dd class="faq-answer">A: Absolutely! We welcome user feedback and suggestions. You can provide feedback through the feedback form on our website, and our team will review and consider your input for improvements.</dd>
+            <dt class="faq-question">Q: Is my data secure when using the translation tool?</dt>
+            <dd class="faq-answer">A: Yes, we prioritize the security and privacy of user data. We follow strict data protection guidelines to ensure your information is safe and confidential.</dd>
+        </dl>
+    </section>
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+        <p>Phone: +91 1234567890</p>
+    </section>
+    <section class="chat-support">
+        <h2>Chat Support</h2>
+        <p>If you have any questions or need assistance, our support team is here to help you. You can reach us through the following options:</p>
+    <ul>
+        <li>Live Chat: Click the chat icon in the lower-right corner of the screen to start a chat with our support team.</li>
+        <li>Email: <a href="mailto:support@example.com">support@example.com</a></li>
+        <li>Phone: +123-456-7890</li>
+    </ul>
+    </section>
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Government of India. All rights reserved.</p>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script src="tool.js"></script>
+</body>
+</html>

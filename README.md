@@ -13,6 +13,7 @@ Content Updates: Stay informed about the latest updates and features.
 
 
 Installation
+
 Clone the repository to your local machine:
 git clone https://github.com/your-username/language-translator.git
 

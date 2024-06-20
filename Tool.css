@@ -5,6 +5,21 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif; /* Google Font for better typography */
 }
+<<<<<<< HEAD
+=======
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+    display: none !important;
+    content-visibility: hidden;
+}
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO {
+    display: none !important;
+    visibility: hidden;
+    content-visibility: hidden;
+}
+.goog-te-gadget{
+    color:transparent !important;
+} 
+>>>>>>> 6f6b60044b0ecb09b2260c10d21973360094e958
 
 /* Header Section */
 header {
